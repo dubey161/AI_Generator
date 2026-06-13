@@ -5,6 +5,6 @@ import java.util.UUID;
 
 public record CreateRetailerRequest(
         
-            @NotBlank @NotNull
+            @NotBlank @NotNull @Size(max = 255)
             String name
 ) {}
