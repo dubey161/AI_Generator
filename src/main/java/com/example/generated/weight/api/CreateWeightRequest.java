@@ -5,6 +5,6 @@ import java.util.UUID;
 
 public record CreateWeightRequest(
         
-            @NotNull
+            @NotNull @NotNull
             Integer weight
 ) {}
