@@ -1,35 +1,38 @@
 package com.example.generated;
 
+/**
+ * Write a java class to add three number
+ *
+ * Problem:
+ * Write a java class to add three number , take input a,b,c and add them
+ *
+ * Requirements:
+ * Write a java class to add three number , take input a,b,c and add them
+ *
+ * Edge Cases:
+ *   - handle null/empty inputs
+ */
 public class WriteAJavaClassToAddThreeNumber {
 
     /**
-     * This method adds three numbers.
-     * 
-     * TIME COMPLEXITY: O(1)
-     * SPACE COMPLEXITY: O(1)
-     * 
-     * @param a The first number to add.
-     * @param b The second number to add.
-     * @param c The third number to add.
-     * @return The sum of a, b, and c.
+     * Time Complexity:  O(?)  — TODO: analyze
+     * Space Complexity: O(?)  — TODO: analyze
+     *
+     * @param  — TODO: add parameters based on problem input
+     * @return — TODO: return type based on problem output
      */
-    public static long solve(long a, long b, long c) {
-        if (a == Long.MIN_VALUE && b < 0 && c < 0) {
-            throw new ArithmeticException("Integer overflow");
-        }
-        if (a == Long.MAX_VALUE && b > 0 && c > 0) {
-            throw new ArithmeticException("Integer overflow");
-        }
-        return a + b + c;
+    public static Object solve(Object input) {
+        // TODO: implement solution
+        throw new UnsupportedOperationException("Not implemented yet");
     }
 
     public static void main(String[] args) {
-        System.out.println(solve(1, 2, 3));  // Expected output: 6
-        System.out.println(solve(-1, -2, -3));  // Expected output: -6
-        try {
-            System.out.println(solve(Long.MAX_VALUE, Long.MAX_VALUE, Long.MAX_VALUE));  // Expected output: ArithmeticException
-        } catch (ArithmeticException e) {
-            System.out.println(e.getMessage());  // Expected output: Integer overflow
-        }
+        // TODO: add sample test cases
+        // Example 1:
+        // Object result = solve(/* sample input */);
+        // System.out.println("Output: " + result);
+
+        System.out.println("Problem: Write a java class to add three number");
+        System.out.println("Implement solve() above");
     }
 }
